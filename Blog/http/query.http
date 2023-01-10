@@ -1,0 +1,4 @@
+POST http://192.168.1.106:8888/register
+Content-Type: application/x-www-form-urlencoded
+
+user=visitor&password=123456
