@@ -1,0 +1,24 @@
+Server:
+  Url: 0.0.0.0:8889
+  ReadTimeout: 5 # 请求被完整读取到缓冲区的时间
+  WriteTimeout: 5 # 请求返回数据被完整写入到缓冲区的时间
+  HandlerTimeout: 10 # 请求处理的时间
+  FileSavePath: # 期望传入绝对路径
+MySQL:
+  User: root
+  Password: 123456
+  Url: 127.0.0.1:3306
+  DBName: WEB
+  Timeout: 10
+Mongo:
+  Url: mongodb://192.168.1.124:27017,192.168.1.124:27018,192.168.1.124:27019/
+  User: 1
+  Password: 1
+  Db: WEB
+  Article: ARTICLES
+  AccessLog: ACCESS_LOG
+  Timeout: 3
+JWT:
+  Secret: this_is_secret
+  Issuer: blog-server
+  Expire: 7200
